@@ -6,7 +6,7 @@
 export default {
   setup() {
     return {
-      msg: "hello world!",
+      msg: "hello world from monorepo-vue-component",
     };
   },
 };
@@ -14,6 +14,7 @@ export default {
 
 <style>
 .monorepo-vue-component {
+  width: 100%;
   color: red;
 }
 </style>

@@ -31,7 +31,7 @@ module.exports = function (_, args) {
       extensions: [".vue", ".js", ".mjs"],
     },
     output: {
-      publicPath: "/",
+      publicPath: "auto",
       path: path.join(__dirname, "dist"),
       chunkFilename: "[name].chunk.js",
       filename: "[name].js",
