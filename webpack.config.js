@@ -58,7 +58,7 @@ module.exports = function (_, args) {
     },
     devServer: {
       port: 3001,
-      historyApiFallback: true,
+      historyApiFallback: false,
       hot: true,
       compress: false,
       headers: {
